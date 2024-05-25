@@ -3,25 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>es el duko you know</title>
+    <title>Tienda de Juegos</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #000;
+            background-color: #f9f9f9;
         }
 
-        img {
-            max-width: 100%;
-            max-height: 100%;
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+            nav ul {
+                list-style: none;
+                padding: 0;
+            }
+
+                nav ul li {
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
-    <img src="https://i.pinimg.com/736x/e7/bd/89/e7bd89687c14a899e5f38d90e7b23c42.jpg" alt="es el duko you know">
+    <header>
+        <h1>Tienda de Juegos</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Juegos</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <!-- Aquí puedes agregar tus productos, ofertas, etc. -->
+        <h2>Los mejores juegos disponibles:</h2>
+        <ul>
+            <li>Nombre del juego 1</li>
+            <li>Nombre del juego 2</li>
+            <li>Nombre del juego 3</li>
+            <!-- Agrega más juegos aquí -->
+        </ul>
+    </div>
+    <footer>
+        © 2024 Tienda de Juegos. Todos los derechos reservados.
+    </footer>
 </body>
 </html>
